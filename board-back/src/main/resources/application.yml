@@ -1,0 +1,15 @@
+server:
+  port: 8024
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/board?serverTimezone=UTC&characterEncoding=UTF-8
+    username: developer
+    password: p!ssw0rd
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 110MB
+        
+secret-key: s3cr3tk3y
